@@ -1,0 +1,6 @@
+
+class InvalidWord(Exception):
+    pass
+
+
+

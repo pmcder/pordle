@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3cb8020-0297-4082-b838-e1cd00099655" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="25QLbvYJatDi4GakLhtkzUPJbcX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Python.launch">
+    <configuration name="colors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pordle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/colors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="launch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pordle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game/launch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="row" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pordle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rows" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rows/row.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_row" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pordle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_row.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.launch" />
+        <item itemvalue="Python.test_row" />
+        <item itemvalue="Python.colors" />
+        <item itemvalue="Python.row" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3cb8020-0297-4082-b838-e1cd00099655" name="Default Changelist" comment="" />
+      <created>1645454438687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645454438687</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645535327134">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1645535327134" />
+    <state width="1419" height="185" key="GridCell.Tab.0.bottom" timestamp="1646600770286">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="185" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1646600770286" />
+    <state width="1114" height="140" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1646218260992" />
+    <state width="1419" height="185" key="GridCell.Tab.0.center" timestamp="1646600770285">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="185" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1646600770285" />
+    <state width="1114" height="140" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1646218260992" />
+    <state width="1419" height="185" key="GridCell.Tab.0.left" timestamp="1646600770284">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="185" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1646600770284" />
+    <state width="1114" height="140" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1646218260991" />
+    <state width="1419" height="185" key="GridCell.Tab.0.right" timestamp="1646600770286">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="185" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1646600770286" />
+    <state width="1114" height="140" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1646218260992" />
+    <state width="1419" height="320" key="GridCell.Tab.1.bottom" timestamp="1646585507930">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="320" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1646585507930" />
+    <state width="1419" height="320" key="GridCell.Tab.1.bottom/0.23.1440.810@0.23.1440.810" timestamp="1646585066982" />
+    <state width="1419" height="320" key="GridCell.Tab.1.center" timestamp="1646585507929">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="320" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1646585507929" />
+    <state width="1419" height="320" key="GridCell.Tab.1.center/0.23.1440.810@0.23.1440.810" timestamp="1646585066981" />
+    <state width="1419" height="320" key="GridCell.Tab.1.left" timestamp="1646585507927">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="320" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1646585507927" />
+    <state width="1419" height="320" key="GridCell.Tab.1.left/0.23.1440.810@0.23.1440.810" timestamp="1646585066980" />
+    <state width="1419" height="320" key="GridCell.Tab.1.right" timestamp="1646585507929">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="320" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1646585507929" />
+    <state width="1419" height="320" key="GridCell.Tab.1.right/0.23.1440.810@0.23.1440.810" timestamp="1646585066982" />
+    <state x="302" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1646134011260">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="302" y="232" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1646134011260" />
+    <state x="302" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.810@0.23.1440.810" timestamp="1645454493373" />
+    <state x="284" y="193" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1645535468036">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="284" y="193" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1645535468036" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/game/launch.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="game" language="Python" />
+        <watch expression="FONT_OFFSET_ROW" language="Python" />
+        <watch expression="user_input[current_letter]" language="Python" />
+        <watch expression="new_row_flag" language="Python" />
+        <watch expression="current_letter" language="Python" />
+        <watch expression="user_input" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
