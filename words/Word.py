@@ -1,4 +1,5 @@
-
+import requests
+import json
 
 class Words:
 
@@ -14,9 +15,18 @@ class Words:
 
 
     @staticmethod
-    def is_valid(self, word):
+    def is_valid(word):
         if len(word) != 5:
             return False
         else:
-            return True
-        #update to check against dictionary API
+            response = requests.get("https://api.dictionaryapi.dev/api/v2/entries/en/"+word)
+            json_response = json.loads(response.text)
+            if len(json_response) > 1:
+                return False
+            else:
+                return True
+
+
+
+
+

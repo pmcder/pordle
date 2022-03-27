@@ -22,3 +22,5 @@ class GameConstants(Enum):
     ROW_FIVE = 5
 
     ROW_SIX = 6
+
+

@@ -3,6 +3,8 @@ import pygame as pg
 from game.controller import Game
 from ui.board import Board
 from ui.colors import Color
+from ui.message_ui import Message
+from words.Word import Words
 
 pg.init()
 
@@ -27,6 +29,9 @@ game = Game()
 board = Board(WIN, game.get_rows())
 board.draw_board()
 run = False
+message_service = game.get_message_service()
+message_ui = Message(message_service, WIN)
+
 
 user_input = ""
 FONT_OFFSET = 40
@@ -43,17 +48,12 @@ def tick():
     global run
     global new_row_flag
 
-
     for event in pg.event.get():
         if event.type == pg.KEYDOWN and len(user_input) <= 4:
             if event.unicode.isalpha():
                 user_input += event.unicode
                 FONT_OFFSET = FONT_OFFSET + 75
                 current_letter = current_letter + 1
-
-            # elif event.key == BACKSPACE:
-            #     user_input = user_input.rstrip(user_input[-1])
-            #     current_letter = current_letter - 1
 
         elif event.type == pg.KEYDOWN and len(user_input) >= 4:
             if event.key == ENTER_KEY:
@@ -66,8 +66,6 @@ def tick():
                 pg.display.update()
                 new_row_flag = True
 
-
-
         elif event.type == pg.QUIT:
             run = False
 
@@ -78,7 +76,11 @@ def render():
     global new_row_flag
     global user_input
     global current_letter
+    global message_service
     pg.display.update()
+
+    if message_service.get_message() != "":
+        message_ui.display_message()
 
     # UI letters only
     font = pg.font.Font('freesansbold.ttf', 32)
@@ -86,9 +88,10 @@ def render():
         img = font.render(user_input[current_letter], True, Color.BLACK.value)
         WIN.blit(img, (FONT_OFFSET, FONT_OFFSET_ROW))
     if new_row_flag:
-        user_input = ""
-        current_letter = -1
-        new_row_flag = False
+        if not game.is_last_row():
+            user_input = ""
+            current_letter = -1
+            new_row_flag = False
 
 
 def launch():

@@ -13,6 +13,7 @@ class RowUi:
         self.y = 100
         self.spaces = self.row.get_spaces()
         self.SPACING = 75
+
     def draw_row(self):
         for s in self.spaces:
             space = SpaceUi(self.WIN, s.get_user_letter())
