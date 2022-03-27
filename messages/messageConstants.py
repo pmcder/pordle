@@ -9,4 +9,4 @@ class MessageConstants(Enum):
 
     ERROR = "An error has occurred"
 
-    INVALID_WORD = 'Word not found'
+    INVALID_WORD = 'Word not found!'

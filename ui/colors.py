@@ -12,3 +12,6 @@ class Color(Enum):
     CORRECT_LETTER = (255, 216, 1)
 
     INCORRECT_LETTER = (128, 128, 128)
+
+    GREEN = (0, 255, 0)
+
